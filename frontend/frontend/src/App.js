@@ -1,12 +1,14 @@
-import './App.css'
-import NavBar from './components/nav-bar'
+import "./App.css";
+import NavBar from "./components/nav-bar";
+import TableContainer from "./components/table-container";
 
 function App() {
   return (
-    <div>
+    <div data-theme='cupcake'>
       <NavBar />
+      <TableContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
